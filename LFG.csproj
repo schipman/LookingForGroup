@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>LFG</RootNamespace>
+    <AssemblyName>LookingForGroup</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*" />
