@@ -28,7 +28,12 @@ Run out of dice and the campaign is over.
 
 ![End screen](docs/images/end-screen.png)
 
-## Running it
+## Download
+
+Grab `LookingForGroup-Setup-<version>.exe` from the [latest release](https://github.com/schipman/LookingForGroup/releases/latest). It is a Windows (x64)
+installer with the .NET runtime included, so there is nothing else to install.
+
+## Running it from source
 
 You need the [.NET 8 SDK](https://dotnet.microsoft.com/download).
 
@@ -37,6 +42,8 @@ dotnet run
 ```
 
 Two shortcuts for testing: `dotnet run -- --play` skips the menu, and `dotnet run -- --score` opens the end screen with sample numbers.
+
+`installer/build-installer.ps1 -Version 1.0.0` (needs Inno Setup 6) publishes a self-contained build and writes `dist/LookingForGroup-Setup-<version>.exe`.
 
 ## Effects
 
