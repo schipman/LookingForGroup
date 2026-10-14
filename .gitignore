@@ -1,0 +1,9 @@
+bin/
+obj/
+dist/
+*.user
+.vs/
+*.png.tmp
+tools/
+lfg_swf/
+decompiled/
